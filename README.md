@@ -288,17 +288,19 @@ Al completar el pipeline, los siguientes archivos estarán disponibles en `resul
 
 ```
 results/
-├── fase4_comparacion_base.csv         # Métricas de los 3 modelos base
-├── fase4_comparacion_barras.png       # Gráfico comparativo
-├── modelo_base_seleccionado.json      # Modelo base seleccionado
-├── fase8_K_domain_shift.json          # Evidencia del domain shift
-├── fase9_Kshot_curva.csv              # Curva K-Shot (K=10,20,30)
-├── fase9_Kshot_curva.png              # Gráfico curva K-Shot
-├── fase9_Kshot_resultados.json        # Resultados detallados
-├── fase10_comparacion_final.csv       # Tabla Base vs. Few-Shot
-├── fase11_comparacion_final.png       # Gráfico comparativo final
-├── fase12_conclusion.json             # Conclusión experimental
-└── fase12_domain_shift_recuperacion.png
+├── fase3_comparacion_base.csv                      # Métricas de los 3 modelos base
+├── fase3_comparacion.png                           # Gráfico comparativo
+├── modelo_base_seleccionado.json                   # Modelo base seleccionado
+├── fase5_K_domain_shift.json                       # Evidencia del domain shift
+├── fase4_Kshot_curva.csv                           # Curva K-Shot (K=10,20,30)
+├── fase4_Kshot_curva.png                           # Gráfico curva K-Shot
+├── fase4_Kshot_resultados.json                     # Resultados detallados
+├── fase6_comparacion_final.csv                     # Tabla Base vs. Few-Shot
+├── fase6_comparacion_final.png                     # Gráfico comparativo final
+├── fase6_conclusion.json                           # Conclusión experimental
+├── fase6_datos_comparacion.json                    # Comparativa final
+├── fase6_cfase6_domain_shift_recuperacion.png      # Gráfico caída del domain shift
+└── domain_shift_recuperacion.png
 ```
 
 ---
