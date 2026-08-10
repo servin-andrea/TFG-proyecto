@@ -53,7 +53,7 @@ TFG_Proyecto/
 └── README.md
 ```
 
-> **Nota:** Las carpetas `models/`, `datasets/`, `results/` y `runs/` se incluyen en el repositorio como carpetas vacías. Los datos se generan al ejecutar el pipeline.
+> **Nota:** Las carpetas `models/`, `datasets/` y `results/` se incluyen en el repositorio como carpetas vacías. Los datos de éstos y de las demas carpetas se generan al ejecutar el pipeline.
 
 ---
 

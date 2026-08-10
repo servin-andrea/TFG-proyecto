@@ -3,23 +3,26 @@ tfg-venv/
 venv/
 .env
 
+# Ignorar contenido de carpetas pero mantener la estructura
 # Modelos (muy pesados para GitHub)
-models/
-
+models/*
+!models/.gitkeep
 # Datasets (licencia separada / muy pesados)
-datasets/
-
+datasets/*
+!datasets/.gitkeep
 # Resultados (se regeneran corriendo el pipeline)
-results/
+results/*
+!results/.gitkeep
 
 # Logs de entrenamiento YOLOv8
 runs/
 
-# Outputs de inferencia
-outputs/
 
 # Carpeta de eval
 detect/
+
+# Carpeta de inferencia
+outputs/
 
 # Python
 __pycache__/
