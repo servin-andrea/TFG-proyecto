@@ -34,19 +34,18 @@ TFG_Proyecto/
 ├── results/
 ├── runs/
 ├── scripts/
-│   ├── analizar_dataset.py          # Fase 1 — análisis de datasets públicos
-│   ├── normalizar_dataset.py        # Fase 1 — normalización al formato YOLO
-│   ├── analizar_distribucion.py     # Fase 4 — distribución del dataset local
-│   ├── dividir_dataset_local.py     # Fase 4 — división train/test
-│   ├── entrenar_modelos_base.py     # Fase 2 — entrenamiento 3 modelos base
-│   ├── seleccionar_modelo_base.py   # Fase 3 — evaluación y selección
-│   ├── evaluar_base_local.py        # Fase 5 — evaluación domain shift
-│   ├── entrenar_modelos_fewshot.py  # Fase 6 — entrenamiento K-Shot (K=10,20,30)
-│   ├── evaluar_fewshot.py           # Fase 6 — evaluación modelos K-Shot
-│   ├── comparacion_final.py         # Fase 7 — comparativa Base vs. Few-Shot
-│   ├── conclusion.py                # Fase 8 — conclusión experimental
-│   ├── detectar_no_helmet.py        # Fase 9 — inferencia con modelo final
-│   └── pipeline_deteccion.py        # Pipeline de inferencia en tiempo real
+│   ├── analizar_dataset.py          # análisis de un dataset
+│   ├── normalizar_dataset.py        # normalización al formato YOLO
+│   ├── analizar_distribucion.py     # distribución de un dataset
+│   ├── dividir_dataset_local.py     # división train/test
+│   ├── entrenar_modelos_base.py     # entrenamiento 3 modelos base
+│   ├── seleccionar_modelo_base.py   # evaluación y selección de modelo base
+│   ├── evaluar_base_local.py        # evaluación domain shift
+│   ├── entrenar_modelos_fewshot.py  # entrenamiento K-Shot (K=10,20,30)
+│   ├── evaluar_fewshot.py           # evaluación modelos K-Shot
+│   ├── comparacion_final.py         # comparativa Base vs. Few-Shot
+│   ├── conclusion.py                # conclusión experimental
+│   └── detectar_no_helmet_anon.py   # inferencia con modelo final
 ├── TFG_Pipeline_Notebook.ipynb      # Notebook con el pipeline completo
 ├── requirements.txt                 # Dependencias del proyecto
 ├── .gitignore
